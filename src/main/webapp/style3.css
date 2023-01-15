@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+body, *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000;
+}
+
+/* footerSection starts here  */
+#header{
+    width: 100%;
+    height: 85px;
+    background-color: #f15a24;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#header a img{
+    height: 85px;
+}
+#header div{
+    display: inline;
+}
+#header div h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    margin-top: -68px;
+}
+/* footer Section ends here  */
+
+/* signUp Section starts here  */
+#form button{
+    text-decoration: none;
+    border: 1px solid green;
+    background-color: green;
+    padding: 7px 7px;
+    border-radius: 6px;
+    color: white;
+    margin-left: 20px;
+}
+#form button:hover{
+    background-color: rgb(85, 216, 85);
+}
+#register{
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#form{
+    width: 25%;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 8px;
+    padding: 20px 0px;
+}
+#form h1{
+    text-align: center;
+}
+#gender{
+    width: auto!important;
+}
+#form input{
+    font-size: 15px;
+    margin-left: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 7px 0px;
+}
+#form label{
+    margin-left: 20px;
+}
+/* signIn Section starts here  */
+
+/* signInSignup Section starts here  */
+#signInSignup{
+    width: 100%;
+    margin-top: 100px;
+}
+#signInSignup div{
+    width: 50%;
+    margin: 0 auto;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 100px 100px;
+}
+#signInSignup div a{
+    text-decoration: none;
+    border: 1px solid #f15a24;
+    background-color: #f15a24;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 15px 40px;
+    margin: 0px 28px;
+    color: #fff;
+}
+#signInSignup div a:hover{
+    background-color: #f08058ef;
+}
+/* signInSignup Section ends here  */
+
+/* signIn section starts here  */
+#signIn{
+    width: 100%;
+    margin-top: 100px;
+}
+#signIn form{
+    width: 30%;
+    margin: 0 auto;
+    background-color: yellow;
+    padding: 40px 10px;
+    border-radius: 10px;
+}
+#signIn form h3{
+    text-align: center;
+    font-size: 30px;
+}
+#signIn form input{
+    font-size: 15px;
+    margin-left: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 7px 0px;
+}
+#signIn form label{
+    margin-left: 20px;
+}
+#signIn form div button{
+    text-decoration: none;
+    border: 1px solid green;
+    background-color: green;
+    padding: 7px 7px;
+    border-radius: 6px;
+    color: white;
+    margin-left: 20px;
+}
+#signIn form div button:hover{
+    background-color: rgb(85, 216, 85);
+}
+/* signIn section ends here  */
+
+/* footer section starts here  */
+#footer{
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#footer div{
+    display: inline-block;
+}
+#footer ul{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    padding: 10px 0px;
+}
+#footer ul li{
+    display: inline-block;
+}
+#footer ul li a{
+    text-decoration: none;
+}
+.fa.fa-instagram{
+    color: rgb(253, 0, 156);
+}
+.fa.fa-facebook-official{
+    color: rgb(69, 69, 241);
+}
+.fa.fa-whatsapp{
+    color: rgb(19, 201, 19);
+}
+#footer1{
+    width: 15%;
+}
+#footer2{
+    width: 69%;
+}
+#footer3{
+    width: 15%;
+}
+#footer3 img{
+    height: 54px;
+    width: 50px;
+    margin-bottom: -17px;
+    margin-left: 164px;
+}
+#footer1 img{
+    margin-bottom: -17px;
+    height: 54px;
+    width: 50px;
+}
+hr{
+    color: #fff;
+}
+/* footer section ends here  */
+
+/* contactUs Section starts here  */
+#contactUs{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+#contactUs div{
+    width: 40%;
+    margin: 0 auto;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+/* contactUs Section ends here  */
+
+/* logOut Section starts here  */
+#logOut{
+    width: 100%;
+    margin-top: 100px;
+    right: 0;
+}
+#logOut div{
+    display: inline-block;
+}
+#welcome{
+    width: 93%;
+}
+#welcome h1{
+    display: inline;
+    color: #fff;
+}
+#logOutButton{
+    display: inline;
+    text-decoration: none;
+    border: 1px solid green;
+    background-color: green;
+    padding: 7px 7px;
+    border-radius: 6px;
+    color: white;
+}
+#logOutButton:hover{
+    background-color: rgb(85, 216, 85);
+}
+/* logOut Section starts here  */
+
+/* home1 Section starts here  */
+#switch{
+    width: 100%;
+    text-align: center;
+}
+#switch ul{
+    display: inline-block;
+}
+#switch ul li{
+    display: inline-block;
+}
+#switch a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px 10px;
+}
+#switch a:hover{
+    background-color: white;
+    color: black;
+}
+#switch img{
+    margin-top: 50px;
+    height: 215px;
+}
+.active{
+	background-color: red!important;
+	color: white!important;
+}
+
+/* home1 Section ends here  */
+
+/* whatsapp Section starts here  */
+#whatsApp{
+    width: 100%;
+    text-align: center;
+    margin-top: 135px;
+}
+#whatsApp img{
+    height: 400px;
+}
+/* whatsapp Section ends here  */
+
+
+/* content Section starts here  */
+#content{
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+#content div{
+    width: 70%;
+    margin: 0 auto;
+}
+#content div h1{
+    text-align: center;
+}
+#content div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* content Section ends here  */
