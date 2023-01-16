@@ -11,7 +11,7 @@
 <body>
     <section id="register"> 
         <form action="signUp" id="form" method="post">
-            <h1>Sign Up</h1>
+            <h1>Sign Up</h1> <br>
 
             <label for="fname">First Name</label> <br>
             <input type="text" name="fname" id="fname" placeholder="Enter First Name"> <br>
